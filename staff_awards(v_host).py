@@ -26,43 +26,6 @@ awards = [
 # Load staff data
 # staff_df = pd.read_csv("teams_password.csv")
 staff_df = pd.DataFrame(list(staff_collection.find({}, {"_id": 0})))
-# st.title("🏆 Team Awards Voting")
-
-# # Step 1: Login (Dropdown for simplicity)
-# staff_list = staff_df["staff_name"].tolist()
-# voter = st.selectbox("Select your name to begin:", ["-- Select --"] + staff_list)
-
-# if voter and voter != "-- Select --":
-#     team = staff_df.loc[staff_df["staff_name"] == voter, "team"].values[0]
-#     team_members = staff_df[(staff_df["team"] == team) & (staff_df["staff_name"] != voter)]
-
-#     st.subheader(f"Voting for your team: {team}")
-#     st.markdown("**Select an award for each of your teammates:**")
-
-#     votes = []
-#     with st.form("award_form"):
-#         for _, row in team_members.iterrows():
-#             selected_award = st.selectbox(
-#                 f"{row['staff_name']}",
-#                 ["-- Select Award --"] + awards,
-#                 key=row['staff_name']
-#             )
-#             votes.append({"staff": row["staff_name"], "award": selected_award})
-
-#         submitted = st.form_submit_button("Submit Votes")
-
-#     if submitted:
-#         if any(v["award"] == "-- Select Award --" for v in votes):
-#             st.error("Please make sure all team members have been assigned an award.")
-#         else:
-#             record = {
-#                 "voter": voter,
-#                 "team": team,
-#                 "votes": votes,
-#                 "timestamp": datetime.utcnow()
-#             }
-#             collection.insert_one(record)
-#             st.success("✅ Your votes have been submitted successfully!")
 
 ##############################
 
@@ -90,7 +53,7 @@ if not st.session_state.logged_in:
             st.session_state.voter_name = user_row.iloc[0]["staff_name"]
             st.session_state.team = user_row.iloc[0]["team"]
             st.success("Login successful!")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Invalid credentials. Try again.")
 else:
