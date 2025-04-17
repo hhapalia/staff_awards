@@ -138,5 +138,5 @@ else:
         st.session_state.logged_in = False
         st.session_state.voter_name = ""
         st.session_state.team = ""
-        st.experimental_rerun()
+        st.rerun()
 
