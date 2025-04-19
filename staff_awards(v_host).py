@@ -16,11 +16,32 @@ collection = db[mongo_collection]
 staff_collection = db[mongo_staff_collection]
 
 awards = [
-    "Most Helpful",
-    "Best Team Player",
-    "Creative Thinker",
-    "Early Bird",
-    "Calm under Pressure",
+    "Human GPT",
+    "The Butterfly Award – Everyone’s friend, everywhere",
+    "The Jugaadu Genius – Always has a clever fix for everything",
+    "The Brainstorm Boss – Always bursting with ideas",
+    "The Win-Win Warrior – Makes sure no one loses",
+    "Master Multitasker",
+    "The Unsung Hero Award – Quietly making the biggest difference",
+    "The Accidental Comedian – Unintentionally hilarious.",
+    "The Creative Catalyst – For the teacher who inspires creativity in the classroom, sparking innovation in every lesson.",
+    "Unofficial Therapist",
+    "The Chill Pill Award – Calms every storm with zen-like vibes",
+    "The One-Liner Legend – Drops truth bombs and punchlines effortlessly",
+    "The WiFi Whisperer – Tech issues vanish when they enter",
+    "The Detail Detective – Spots errors no one else ever does",
+    "The “Heart Before Haste” Award – Makes people feel heard",
+    "The Ice Cream in Chaos Award – Sweetness in stressful times",
+    "The Grammar Guardian – Typos fear them",
+    "Fitness Freak",
+    "The EBA Champion – Keeps emotional bank accounts full",
+    "The Untangled Thinker – Simplifies even the messiest mess",
+    "Silent Storm",
+    "Social Media Star",
+    "Sunshine Award – Lights up the team’s mood",
+    "The No-Filter Educator – Whatever’s in the head, comes out the mouth.",
+    "The Anchor Award – Keeps the team grounded",
+    "The Mentor Magician – Gives advice that actually lands"
 ]
 
 # Load staff data
