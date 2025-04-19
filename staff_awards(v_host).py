@@ -23,8 +23,8 @@ awards = [
     "The Win-Win Warrior – Makes sure no one loses",
     "Master Multitasker",
     "The Unsung Hero Award – Quietly making the biggest difference",
-    "The Accidental Comedian – Unintentionally hilarious.",
-    "The Creative Catalyst – For the teacher who inspires creativity in the classroom, sparking innovation in every lesson.",
+    "The Accidental Comedian – Unintentionally hilarious",
+    "The Creative Catalyst – For the teacher who inspires creativity in the classroom, sparking innovation in every lesson",
     "Unofficial Therapist",
     "The Chill Pill Award – Calms every storm with zen-like vibes",
     "The One-Liner Legend – Drops truth bombs and punchlines effortlessly",
@@ -39,7 +39,7 @@ awards = [
     "Silent Storm",
     "Social Media Star",
     "Sunshine Award – Lights up the team’s mood",
-    "The No-Filter Educator – Whatever’s in the head, comes out the mouth.",
+    "The No-Filter Educator – Whatever’s in the head, comes out the mouth",
     "The Anchor Award – Keeps the team grounded",
     "The Mentor Magician – Gives advice that actually lands"
 ]
