@@ -3,7 +3,7 @@ import pandas as pd
 import pymongo
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from datetime import datetime
+from datetime import datetime, timezone
 
 mongo_uri = st.secrets["mongo"]["uri"]
 mongo_db = st.secrets["mongo"]["database"]
