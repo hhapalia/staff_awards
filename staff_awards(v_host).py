@@ -112,7 +112,7 @@ else:
                     "voter": voter,
                     "team": team,
                     "votes": votes,
-                    "timestamp": datetime.utcnow()
+                    "timestamp": datetime.now(timezone.utc)
                 }
                 collection.insert_one(record)
                 st.success("✅ Your votes have been submitted successfully!")
